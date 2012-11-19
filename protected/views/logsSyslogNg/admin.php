@@ -51,11 +51,10 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		'priority',
 		'level',
 		'tag',
-		/*
 		'program',
 		'msg',
 		'inserted_at',
-		*/
+
 		array(
 			'class'=>'CButtonColumn',
 		),
