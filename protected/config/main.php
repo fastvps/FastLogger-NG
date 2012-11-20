@@ -5,7 +5,10 @@ return array(
 	'name'=>'FastLogger-NG',
 
 	// preloading 'log' component
-	'preload'=>array('log'),
+	'preload'=>array(
+        'bootstrap',
+        'log'
+    ),
 
 	// autoloading model and component classes
 	'import'=>array(
@@ -16,32 +19,41 @@ return array(
 	'modules'=>array(
 		// uncomment the following to enable the Gii tool
 
-		'gii'=>array(
+		/*'gii'=>array(
 			'class'=>'system.gii.GiiModule',
 			'password'=>'fastvps',
 			'ipFilters'=>array('127.0.0.1'),
-		),
+            'generatorPaths' => array(
+                'bootstrap.gii'
+            ),
+		),*/
 
 	),
 
 	// application components
 	'components'=>array(
 		// uncomment the following to enable URLs in path-format
-		/*
+
 		'urlManager'=>array(
 			'urlFormat'=>'path',
+            'showScriptName'=>false,
 			'rules'=>array(
-				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
-				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
-				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
+                'logs' => 'site/logs',
+                '/' => 'site/index',
 			),
-		),*/
+		),
+
+
+        'bootstrap' => array(
+            'class' => 'ext.bootstrap.components.Bootstrap',
+            'responsiveCss' => true,
+        ),
 
 		'db'=>array(
-			'connectionString' => 'mysql:host=78.47.130.43;dbname=syslog',
+			'connectionString' => 'mysql:host=localhost;dbname=syslog',
 			'emulatePrepare' => true,
-			'username' => 'syslogreader',
-			'password' => 'gHU6BfQQjBe6mz',
+			'username' => 'syslog',
+			'password' => 'password',
 			'charset' => 'utf8',
 		),
 
@@ -49,7 +61,7 @@ return array(
 			// use 'site/error' action to display errors
 			'errorAction'=>'site/error',
 		),
-		'log'=>array(
+		/*'log'=>array(
 			'class'=>'CLogRouter',
 			'routes'=>array(
 				array(
@@ -61,15 +73,9 @@ return array(
 				array(
 					'class'=>'CWebLogRoute',
 				),
-				*/
-			),
-		),
-	),
 
-	// application-level parameters that can be accessed
-	// using Yii::app()->params['paramName']
-	'params'=>array(
-		// this is used in contact page
-		'adminEmail'=>'webmaster@example.com',
-	),
+			),*/
+		),
+
+
 );

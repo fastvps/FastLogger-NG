@@ -72,7 +72,7 @@ class LogsSyslogNg extends CActiveRecord
 			'level' => 'Level',
 			'tag' => 'Tag',
 			'program' => 'Program',
-			'msg' => 'Msg',
+			'msg' => 'Message',
 			'inserted_at' => 'Inserted At',
 		);
 	}
@@ -99,6 +99,19 @@ class LogsSyslogNg extends CActiveRecord
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
+             'pagination'=>array(
+                        'pageSize'=>20,
+                        ),
 		));
 	}
+
+    public static function getLevels()
+    {
+
+        $levels = array ('err', 'notice', 'info', 'warning', 'crit', 'alert');
+        $levels = array_combine($levels,$levels);
+
+        return $levels;
+
+    }
 }

@@ -44,7 +44,11 @@ body
 #logo
 {
 	padding: 10px 20px;
-	font-size: 200%;
+}
+
+#logo h1
+{
+    padding-bottom: 20px;
 }
 
 #mainmenu
