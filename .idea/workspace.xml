@@ -1,12 +1,293 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b6c9b3ff-2080-4c0c-8634-56ce6a048159" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\xampp\htdocs\logger\protected\data\syslog.new.sql" afterPath="" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\logger\protected\command\CronCommand.php" afterPath="$PROJECT_DIR$/protected/commands/CronCommand.php" />
+    <list default="true" id="b6c9b3ff-2080-4c0c-8634-56ce6a048159" name="Default" comment="Add bootstrap">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/alpha.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/glyphicons-halflings-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/hue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/saturation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/ui-bg_glass_55_fbf9ee_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/ui-bg_glass_75_dadada_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/ui-bg_glass_75_e6e6e6_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/ui-bg_glass_75_ffffff_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/ui-bg_highlight-soft_75_cccccc_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/ui-bg_inset-soft_95_fef1ec_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/ui-icons_222222_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/ui-icons_2e83ff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/ui-icons_454545_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/ui-icons_888888_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/ui-icons_cd0a0a_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/img/ui-icons_f6cf3b_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/actions/TbExtendedTooltipAction.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/actions/TbSortableAction.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/actions/TbToggleAction.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-box.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-colorpicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-datepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-daterangepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-editable-tooltip.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-editable.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-picker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-relational.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-responsive.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-timepicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-toggle-buttons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-wysihtml5.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap-yii.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/easy-pie-chart.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/jquery-ui-bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/redactor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/redactor/plugins/clips.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/css/wysiwyg-color.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/bootstrap-editable-tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/bootstrap-editable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/bootstrap-editable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/bootstrap-wysihtml5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/bootstrap.bootbox.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/bootstrap.colorpicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/bootstrap.datepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/bootstrap.daterangepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/bootstrap.picker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/bootstrap.timepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/date.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/highcharts/adapters/mootools-adapter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/highcharts/adapters/mootools-adapter.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/highcharts/adapters/prototype-adapter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/highcharts/adapters/prototype-adapter.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/highcharts/highcharts-more.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/highcharts/highcharts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/highcharts/highcharts.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/highcharts/modules/canvas-tools.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/highcharts/modules/canvas-tools.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/highcharts/modules/exporting.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/highcharts/modules/exporting.src.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/highcharts/themes/dark-blue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/highcharts/themes/dark-green.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/highcharts/themes/gray.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/highcharts/themes/grid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/highcharts/themes/skies.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/jquery.ajax.cache.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/jquery.bootstrap.wizard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/jquery.easy.pie.chart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/jquery.jeditable.bcolorpicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/jquery.jeditable.bdatepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/jquery.jeditable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/jquery.jeditable.masked.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/jquery.jeditable.time.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/jquery.jqote2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/jquery.json.yiigridview.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/jquery.maskedinput.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/jquery.selectable.gridview.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/jquery.sortable.gridview.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/jquery.sparkline.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/jquery.stickytableheaders.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/jquery.stringifyjson.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/jquery.timepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/jquery.toggle.buttons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.kr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.ms.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.zh-CN.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-datepicker.zh-TW.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-wysihtml5.de-DE.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-wysihtml5.es-ES.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-wysihtml5.fr-FR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-wysihtml5.fr-NL.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-wysihtml5.hu-HU.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-wysihtml5.pt-BR.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/bootstrap-wysihtml5.sv-SE.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor.de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor.fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor.hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor.lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor.pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor.pt_br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor.ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/locales/redactor.ua.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/redactor.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/redactor/plugins/clips.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/redactor/plugins/fullscreen.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/spin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/js/wysihtml5-0.3.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/accordion.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/bootstrap-yii.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/box.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/breadcrumbs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/button-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/carousel.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/close.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/code.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/colorpicker.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/component-animations.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/datepicker.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/daterangepicker.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/dropdowns.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/easypiechart.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/editable-tooltip.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/editable.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/hero-unit.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/jquery-ui.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/jquery-ui/bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/jquery-ui/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/jquery-ui/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/jquery-ui/patterns.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/jquery-ui/reset.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/jquery-ui/scaffolding.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/jquery-ui/tables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/jquery-ui/type.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/jquery-ui/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/labels-badges.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/layouts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/modals.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/navbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/navs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/pager.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/picker.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/popovers.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/progress-bars.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/redactor.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/relational.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/reset.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/responsive-1200px-min.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/responsive-767px-max.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/responsive-768px-979px.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/responsive-navbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/responsive-utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/responsive.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/scaffolding.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/sprites.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/tables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/thumbnails.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/toggle-buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/tooltip.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/type.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/wells.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/wysihtml5.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/assets/less/wysiwyg-color.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/components/Bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/gii/bootstrap/BootstrapCode.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/gii/bootstrap/BootstrapGenerator.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/gii/bootstrap/templates/default/_form.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/gii/bootstrap/templates/default/_search.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/gii/bootstrap/templates/default/_view.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/gii/bootstrap/templates/default/admin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/gii/bootstrap/templates/default/controller.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/gii/bootstrap/templates/default/create.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/gii/bootstrap/templates/default/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/gii/bootstrap/templates/default/update.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/gii/bootstrap/templates/default/view.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/gii/bootstrap/views/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbActiveForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbAlert.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbBadge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbBaseMenu.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbBox.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbBreadcrumbs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbBulkActions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbButton.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbButtonColumn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbButtonGroup.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbCarousel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbCollapse.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbColorPicker.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbDataColumn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbDatePicker.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbDateRangePicker.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbDetailView.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbDropdown.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbEditableColumn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbEditableDetailView.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbEditableField.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbEditableSaver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbExtendedGridView.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbExtendedTooltip.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbForm.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbFormButtonElement.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbFormInputElement.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbGoogleVisualizationChart.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbGridView.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbGroupGridView.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbHeroUnit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbHighCharts.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbHtml5Editor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbImageColumn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbJEditableColumn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbJsonButtonColumn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbJsonCheckBoxColumn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbJsonDataColumn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbJsonGridColumn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbJsonGridView.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbJsonPager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbJsonPickerColumn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbLabel.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbListView.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbMenu.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbModal.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbNavbar.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbPager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbPickerColumn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbProgress.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbRedactorJs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbRelationalColumn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbScrollSpy.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbTabView.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbTabs.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbThumbnails.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbTimePicker.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbToggleButton.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbToggleColumn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbTotalSumColumn.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbTypeahead.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/TbWizard.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/input/TbInput.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/input/TbInputHorizontal.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/input/TbInputInline.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/input/TbInputSearch.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/extensions/bootstrap/widgets/input/TbInputVertical.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/data/syslog.sql" afterPath="$PROJECT_DIR$/protected/data/syslog.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="logger.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,10 +331,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="14" selection-start="134" selection-end="134" vertical-scroll-proportion="0.11710677">
+            <state line="6" column="14" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -98,10 +379,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="38" selection-start="88" selection-end="88" vertical-scroll-proportion="-1.9615384">
+            <state line="7" column="2" selection-start="212" selection-end="212" vertical-scroll-proportion="0.1408284">
               <folding />
             </state>
           </provider>
@@ -135,7 +416,6 @@
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/protected/views/site/index.php" />
         <option value="$PROJECT_DIR$/protected/views/site/logs.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/protected/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/protected/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/protected/models/LogsSyslogNg.php" />
@@ -145,6 +425,7 @@
         <option value="$PROJECT_DIR$/protected/command/CronCommand.php" />
         <option value="$PROJECT_DIR$/protected/commands/CronCommand.php" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -261,6 +542,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="extensions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -298,6 +601,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="commands" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -378,7 +695,11 @@
       <created>1353410171317</created>
       <updated>1353410171317</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Fixes">
+      <created>1353410946607</created>
+      <updated>1353410946607</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -391,7 +712,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26136363" sideWeight="0.494863" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15741728" sideWeight="0.6707589" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15741728" sideWeight="0.6707589" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2659091" sideWeight="0.33561644" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5667808" sideWeight="0.49772727" order="7" side_tool="true" content_ui="tabs" />
@@ -441,7 +762,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="V 0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add bootstrap" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -457,6 +778,8 @@
     <MESSAGE value="start" />
     <MESSAGE value="Created models, data, controllers, CRUD" />
     <MESSAGE value="V 0.1" />
+    <MESSAGE value="Fixes" />
+    <MESSAGE value="Add bootstrap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -500,13 +823,6 @@
     <entry file="file://$PROJECT_DIR$/protected/controllers/SiteController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="31" selection-start="760" selection-end="760" vertical-scroll-proportion="-22.038462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="38" selection-start="88" selection-end="88" vertical-scroll-proportion="-1.9615384">
           <folding />
         </state>
       </provider>
@@ -558,7 +874,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="14" selection-start="134" selection-end="134" vertical-scroll-proportion="0.11710677">
+        <state line="6" column="14" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="2" selection-start="212" selection-end="212" vertical-scroll-proportion="0.1408284">
           <folding />
         </state>
       </provider>
