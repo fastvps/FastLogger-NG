@@ -2,41 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6c9b3ff-2080-4c0c-8634-56ce6a048159" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/protected/command/CronCommand.php" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\logger\css\form.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\logger\css\ie.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\logger\css\print.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\logger\css\screen.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\logger\protected\controllers\LogsNetconsoleController.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\logger\protected\controllers\LogsSyslogNgController.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\logger\protected\views\logsNetconsole\_form.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\logger\protected\views\logsNetconsole\_search.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\logger\protected\views\logsNetconsole\_view.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\logger\protected\views\logsNetconsole\admin.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\logger\protected\views\logsNetconsole\create.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\logger\protected\views\logsNetconsole\index.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\logger\protected\views\logsNetconsole\update.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\logger\protected\views\logsNetconsole\view.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\logger\protected\views\logsSyslogNg\_form.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\logger\protected\views\logsSyslogNg\_search.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\logger\protected\views\logsSyslogNg\_view.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\logger\protected\views\logsSyslogNg\create.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\logger\protected\views\logsSyslogNg\index.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\logger\protected\views\logsSyslogNg\update.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\logger\protected\views\logsSyslogNg\view.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\logger\protected\views\site\contact.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\logger\protected\views\site\login.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\xampp\htdocs\logger\protected\views\site\pages\about.php" afterPath="" />
-      <change type="MOVED" beforePath="C:\xampp\htdocs\logger\protected\views\logsSyslogNg\admin.php" afterPath="$PROJECT_DIR$/protected/views/site/logs.php" />
+      <change type="DELETED" beforePath="C:\xampp\htdocs\logger\protected\data\syslog.new.sql" afterPath="" />
+      <change type="MOVED" beforePath="C:\xampp\htdocs\logger\protected\command\CronCommand.php" afterPath="$PROJECT_DIR$/protected/commands/CronCommand.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/config/console.php" afterPath="$PROJECT_DIR$/protected/config/console.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/config/main.php" afterPath="$PROJECT_DIR$/protected/config/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/controllers/SiteController.php" afterPath="$PROJECT_DIR$/protected/controllers/SiteController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/models/LogsSyslogNg.php" afterPath="$PROJECT_DIR$/protected/models/LogsSyslogNg.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/layouts/main.php" afterPath="$PROJECT_DIR$/protected/views/layouts/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/views/site/index.php" afterPath="$PROJECT_DIR$/protected/views/site/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/data/syslog.sql" afterPath="$PROJECT_DIR$/protected/data/syslog.sql" />
     </list>
     <ignored path="logger.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -71,10 +41,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CronCommand.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/protected/command/CronCommand.php">
+      <file leaf-file-name="CronCommand.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/commands/CronCommand.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="92" selection-start="1227" selection-end="1228" vertical-scroll-proportion="0.32189348">
+            <state line="8" column="12" selection-start="158" selection-end="1260" vertical-scroll-proportion="-5.230769">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="14" selection-start="134" selection-end="134" vertical-scroll-proportion="0.11710677">
               <folding />
             </state>
           </provider>
@@ -104,12 +83,8 @@
       <file leaf-file-name="console.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/config/console.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="31" selection-start="236" selection-end="236" vertical-scroll-proportion="-3.9230769">
-              <folding>
-                <marker date="1353409400049" expanded="true" signature="150:600" placeholder="..." />
-                <marker date="1353409400049" expanded="true" signature="346:597" placeholder="..." />
-                <marker date="1353409400049" expanded="true" signature="367:593" placeholder="..." />
-              </folding>
+            <state line="6" column="31" selection-start="236" selection-end="236" vertical-scroll-proportion="-2.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -168,6 +143,8 @@
         <option value="$PROJECT_DIR$/protected/runtime/application.log" />
         <option value="$PROJECT_DIR$/protected/config/main.php" />
         <option value="$PROJECT_DIR$/protected/command/CronCommand.php" />
+        <option value="$PROJECT_DIR$/protected/commands/CronCommand.php" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -256,6 +233,74 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="logger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="commands" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope">
@@ -329,19 +374,24 @@
       <created>1353365734441</created>
       <updated>1353365734442</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="V 0.1">
+      <created>1353410171317</created>
+      <updated>1353410171317</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46404108" sideWeight="0.4969697" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924107" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26136363" sideWeight="0.494863" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15741728" sideWeight="0.6707589" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15741728" sideWeight="0.6707589" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2659091" sideWeight="0.33561644" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5667808" sideWeight="0.49772727" order="7" side_tool="true" content_ui="tabs" />
@@ -351,7 +401,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -392,7 +441,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created models, data, controllers, CRUD" />
+    <option name="LAST_COMMIT_MESSAGE" value="V 0.1" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -407,6 +456,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="start" />
     <MESSAGE value="Created models, data, controllers, CRUD" />
+    <MESSAGE value="V 0.1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -478,17 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/config/console.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="31" selection-start="236" selection-end="236" vertical-scroll-proportion="-3.9230769">
-          <folding>
-            <marker date="1353409400049" expanded="true" signature="150:600" placeholder="..." />
-            <marker date="1353409400049" expanded="true" signature="346:597" placeholder="..." />
-            <marker date="1353409400049" expanded="true" signature="367:593" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/runtime/application.log">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="21" selection-start="1483" selection-end="1483" vertical-scroll-proportion="0.0">
@@ -503,9 +542,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/command/CronCommand.php">
+    <entry file="file://$PROJECT_DIR$/protected/config/console.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="92" selection-start="1227" selection-end="1228" vertical-scroll-proportion="0.32189348">
+        <state line="6" column="31" selection-start="236" selection-end="236" vertical-scroll-proportion="-2.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/commands/CronCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="12" selection-start="158" selection-end="1260" vertical-scroll-proportion="-5.230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="14" selection-start="134" selection-end="134" vertical-scroll-proportion="0.11710677">
           <folding />
         </state>
       </provider>
